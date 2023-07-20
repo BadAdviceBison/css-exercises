@@ -48,17 +48,16 @@ a {
 .links {
   list-style-type: none;
   display: flex;
-  gap: 12px;
+  gap: 16px;
 }
 
-.left {
+.left,
+.right {
   display: flex;
   align-items: center;
 }
 
 .right {
-  display: flex;
   margin-left: auto;
-  align-items: center;
   gap: 16px;
 }
